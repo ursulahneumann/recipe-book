@@ -1,2 +1,2 @@
-# ursulahneumann.com
-Code for my personal website.
+# recipe-book
+Code for a Cleroux-Neumann-Wong recipe book.
