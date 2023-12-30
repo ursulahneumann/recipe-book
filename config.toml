@@ -1,0 +1,62 @@
+baseURL = "https://www.ursulahneumann.com"
+languageCode = "en-us"
+title = "Cleroux-Neumann-Wong Recipe Book"
+theme = "mediumish"
+summaryLength = 25
+copyright = "Ursula Neumann - All rights reserved"
+enableEmoji = true
+publishDir = "public"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description =""
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Ursula Neumann"
+  thumbnail = "/images/headshot.jpg"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = ""
+  title = ""
+  subtitle = ""
+  mdtext = '''
+Check out our family recipe book!
+'''
+  alertbar = false
+
+## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/"
+[[menu.main]]
+    name = "Blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog"
+#[[menu.main]]
+#    name = "Imprint"
+#    identifier = "imprint"
+#    weight = 200
+#    url = "/static/imprint"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'pygments'
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+  unsafe= true
