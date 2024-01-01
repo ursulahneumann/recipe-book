@@ -11,7 +11,7 @@ summary: "With a distinct lack of almonds."
 ### Almond Bark Recipe
 
 ### Ingredients
-* 680 g white chocolate (2x340 g package, see note)
+* 680 g white chocolate (2 x 340 g package, see note)
 * 1.5 cup Cap'n Crunch cereal
 * 1.5 Rice Krispies cereal
 * 1.5 cup mini marshmellows
